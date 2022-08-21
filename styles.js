@@ -33,5 +33,37 @@ export const styles = StyleSheet.create({
   },
   btnText: {
     fontSize: 18,
+    
+  },
+  divider: {
+    borderBottomWidth: 1,
+    marginTop: 30
+  },
+  todosContainer: {
+    marginTop: 30
+  },
+  todoBox: {
+    borderBottomWidth: 1,
+    margin: 10,
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center'
+  },
+  todoText: {
+    fontSize: 25
+  },
+  deleteBtn: {
+    width: 25,
+    height: 25,
+    borderRadius: 25,
+    backgroundColor: 'red',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  deleteText: {
+    color: 'white',
+    fontWeight: 'bold'
   }
 })
